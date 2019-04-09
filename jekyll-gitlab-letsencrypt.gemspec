@@ -5,12 +5,12 @@ require 'jekyll/gitlab/letsencrypt/version'
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-gitlab-letsencrypt"
   spec.version       = Jekyll::Gitlab::Letsencrypt::VERSION
-  spec.authors       = ["Justin Aiken"]
+  spec.authors       = ["Justin Aiken", "Carlos Asmat"]
   spec.email         = ["60tonangel@gmail.com"]
 
   spec.summary       = %q{Automate letsencrypt renewals for gitlab pages.}
   spec.description   = %q{Automate letsencrypt renewals for gitlab pages.}
-  spec.homepage      = "https://github.com/JustinAiken/jekyll-gitlab-letsencrypt"
+  spec.homepage      = "https://github.com/Sotilrac/jekyll-gitlab-letsencrypt"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match %r{^(spec)/} }

@@ -56,7 +56,7 @@ module Jekyll
           end
 
           def email
-            jekyll_config['email']
+            jekyll_config['email'].presence || ENV['EMAIL'].presence
           end
 
           def domain

@@ -61,7 +61,7 @@ gitlab-letsencrypt:
 
   # Jekyll settings:
   base_path:  './'               # Where you want the file to go
-  pretty_url: false              # Add a "/" on the end of the URL... set to `true` if you use permalink_style: pretty
+  pretty_url: false              # Add a ".html" on the end of the URL... set to `true` if you use permalink_style: pretty
   append_str: ''                 # Append this string to the end of the challenge URL
   filename:   'letsencrypt.html' # What to call the generated challenge file
 

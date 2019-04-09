@@ -1,3 +1,7 @@
+# 0.4.2
+  - #24 - Changes URL extension.
+        - Makes email configurable via environment variable.
+
 # 0.4.1
   - #23 - Add option to append arbitrary text to the challenge file
 

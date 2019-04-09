@@ -106,7 +106,7 @@ module Jekyll
           permalink  = ""
           permalink += base_path if base_path
           permalink += challenge.filename
-          permalink += "/" if pretty_url?
+          permalink += ".html" if pretty_url?
           permalink += append_str
 
           content  = "---\n"
@@ -124,7 +124,6 @@ module Jekyll
           @challenge_url ||= begin
             url  = "#{scheme}://#{domain}/"
             url += challenge.filename
-            url += "/" if pretty_url?
             url
           end
         end
